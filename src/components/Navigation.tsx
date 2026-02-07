@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/images.png";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -53,7 +53,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center gap-2 group">
             {/* Logo */}
-            <img src="/public/logo.png" alt="Logo" className="h-10" />
+            <img src="/public/images.png" alt="Logo" className="h-10" />
             {/* Right Text */}
             <span className="text-sm md:text-base font-medium tracking-wide text-foreground uppercase">
               ARSHAD AHMED <span className="text-primary">| ARCHITECT</span>
