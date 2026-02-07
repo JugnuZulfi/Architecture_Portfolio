@@ -53,7 +53,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center gap-2 group">
             {/* Logo */}
-            <img src="./src/assets/logo.png" alt="Logo" className="h-10" />
+            <img src="/public/logo.png" alt="Logo" className="h-10" />
             {/* Right Text */}
             <span className="text-sm md:text-base font-medium tracking-wide text-foreground uppercase">
               ARSHAD AHMED <span className="text-primary">| ARCHITECT</span>
