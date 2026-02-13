@@ -18,6 +18,7 @@ import { Button } from "@/components/ui/button";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { ShieldCheck } from "lucide-react";
+import img from "../assets/img.png";
 
 const DetailedPage = () => {
   const location = useLocation();
@@ -61,8 +62,8 @@ const DetailedPage = () => {
             <div className="relative">
               <div className="aspect-[3/4] rounded-lg overflow-hidden">
                 <img
-                  src="./src/assets/img.png"
-                  alt="Principal Architect"
+                  src={img}
+                  alt="Architecture"
                   className="w-full h-full object-cover"
                 />
               </div>
