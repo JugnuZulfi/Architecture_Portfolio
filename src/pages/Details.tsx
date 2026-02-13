@@ -62,7 +62,7 @@ const DetailedPage = () => {
             <div className="relative">
               <div className="aspect-[3/4] rounded-lg overflow-hidden">
                 <img
-                  src={img}
+                  src="https://drive.google.com/file/d/1cfjtkR9NSABh-CIxWA55pksoCCttzwdD/view?usp=drive_link"
                   alt="Architecture"
                   className="w-full h-full object-cover"
                 />
