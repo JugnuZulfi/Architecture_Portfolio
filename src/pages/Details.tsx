@@ -38,7 +38,6 @@ const DetailedPage = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
-      Back Button
       <div className="pt-24 pb-8 container-narrow">
         <Link to="/">
           <Button variant="ghost" className="group">
