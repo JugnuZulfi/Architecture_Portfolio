@@ -60,7 +60,7 @@ const DetailedPage = () => {
             <div className="relative">
               <div className="aspect-[3/4] rounded-lg overflow-hidden">
                 <img
-                  src="https://www.freepik.com/free-photos-vectors/person-4k"
+                  src="https://unsplash.com/photos/woman-in-a-fairy-costume-with-wings-and-a-light-oVh_ORrVPyM"
                   alt="Principal Architect"
                   className="w-full h-full object-cover"
                 />
